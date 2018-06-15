@@ -1,0 +1,51 @@
+.container {
+  border: 1px solid orangered;
+  display: flex;
+  justify-content: center;
+}
+
+.app {
+  border: 1px solid red;
+  width: 80%;
+}
+
+.header {
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  margin: 5px;
+}
+
+.navigation {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 5px;
+  //padding: 5px;
+  max-width: 320px;
+}
+
+.navlink {
+  border: 1px solid black;
+  background: #999;
+  padding: 1em 2.4em;
+  font-size: .9em;
+  //margin: 0.1em;
+  color: white;
+  text-decoration: none;
+  flex-grow: 1;
+  text-align: center;
+}
+
+.route {
+  border: 1px solid black;
+  margin: 5px;
+  padding: 15px;
+}
+
+.content {
+  border: 1px solid black;
+}
+
